@@ -11,9 +11,11 @@ valores (todos del mismo tipo) de un diccionario.
 un diccionario se encuentran en otro diccionario.
 
   SI SE VERIFICA:
+  
   ![image](https://github.com/user-attachments/assets/8825d972-1cca-46db-879f-64f610f2cb78)
 
   SI NO SE VERIFICA:
+  
   ![image](https://github.com/user-attachments/assets/40f320aa-ab07-4d31-947f-46271e3f4919)
 
   PROBLEMA 3: Desarrollar una funci ́on que reciba dos diccionarios como parametros
@@ -23,6 +25,7 @@ diccionarios, se debe asignar el valor que tenga la clave en el
 primer diccionario.
 
   EJECUCIÓN: 
+  
   ![image](https://github.com/user-attachments/assets/5ce7a97d-5af2-4405-b786-9a39a964351f)
 
   PROBLEMA 4: Desarrollar un programa que dada una listas de personas, cada
@@ -32,6 +35,7 @@ persona representada como el siguiente ejemplo:
 est ́an en un rango de edades.
 
   EJECUCIÓN:
+  
   ![image](https://github.com/user-attachments/assets/41f00766-bf8d-4405-956e-5deaf4261dd7)
 
 PARTE II: ARCHIVOS (TENIENDO EN CUENTA EL CSV)
@@ -41,31 +45,47 @@ para obtener las compras realizadas en un pa ́ıs dado.
 
   EJECUCIÓN (INTEGRANDO TKINTER)
   ------ PRIMERA VISTA ------ (Selecciona el archivo CSV a utilizar)
+  
   ![image](https://github.com/user-attachments/assets/8a95f569-6b7e-48bf-9f92-04a05ff78ccd)
+  
   ------ SEGUNDA VISTA ------ (Verificación del archivo)
+  
   ![image](https://github.com/user-attachments/assets/427889e9-5bd0-4e06-8abc-98b2639ab223)
+  
   ------ TERCERA VISTA ------ (Busqueda de información)
+  
   ![image](https://github.com/user-attachments/assets/1ba39f24-a641-47ee-849f-e1c21cbef08a)
+  
 
   PROBLEMA 2: Dado el archivo de texto files/SalesJan2009.csv, procese el archivo
 para obtener las compras realizadas con un medio de pago dado.
 
   EJECUCIÓN (INTEGRANDO TKINTER)
   ------ PRIMERA VISTA ------ (Seleccionael archivo CSV a utilizar)
+  
   ![image](https://github.com/user-attachments/assets/d4a76d90-99ee-4114-bdc7-2200ec5ea20d)
+  
   ------ SEGUNDA VISTA ------ (Verificación de la selección)
+  
   ![image](https://github.com/user-attachments/assets/dc33857d-f3cb-4bb0-8ac8-9748bf524850)
+  
   ------ TERCERA VISTA ------ (Busqueda de información)
+  
   ![image](https://github.com/user-attachments/assets/00f2ca88-b980-47d0-aa45-9c593d1c7b44)
+  
 
 
 PARA AMBOS PROBLEMAS CUANDO NO PONES INFORMACIÓN:
 
   SI NO PONES LA BUSQUEDA:
+  
   ![image](https://github.com/user-attachments/assets/7aeee708-ecca-45be-a048-51b1efb4a684)
 
+
   SI NO PONES ARCHIVO:
+  
   ![image](https://github.com/user-attachments/assets/0e1c7e3a-e7e0-4c94-87e9-edbe4adaad04)
+  
 
 PARTE III: JSON
 
@@ -78,10 +98,15 @@ que est ́en en un rango de edades dado por el usuario.
 
   EJECUCIÓN (INTEGRANDO TKINTER)
   ------ PRIMERA VISTA -------
+  
   ![image](https://github.com/user-attachments/assets/bed170c6-a955-4a25-97ca-bb109b41c271)
+  
   ------ SEGUNDA VISTA ------ (BUSQUEDA POR DEPORTE)
+  
   ![image](https://github.com/user-attachments/assets/37384063-dd34-4cf9-94cc-abf28a120f02)
+  
   ------ TERCERA VISTA ------ (BUSQUEDA POR RANGO DE EDAD)
+  
   ![image](https://github.com/user-attachments/assets/7d58147b-b161-4ca4-9685-57b342412583)
 
 
