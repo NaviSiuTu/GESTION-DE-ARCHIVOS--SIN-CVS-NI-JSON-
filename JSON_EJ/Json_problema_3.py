@@ -16,8 +16,18 @@ def calcular_promedio(lista):
         return 0.0
     return round(sum(lista) / len(lista), 2)
 
+def cargar_existente(ruta):
+    if os.path.exists(ruta):
+        with open(ruta, 'r', encoding='utf-8') as f:
+            contenido = f.read().strip()
+            if contenido:
+                try:
+                    return json.loads(contenido)
+                except json.JSONDecodeError:
+                    print("⚠️ El archivo existente tiene formato inválido. Se ignorará.")
+    return {}
+
 def main():
-    # Ruta al archivo de entrada y salida
     ruta_base = os.path.dirname(__file__)
     ruta_entrada = os.path.join(ruta_base, "notas.json")
     ruta_salida = os.path.join(ruta_base, "promedio_estudiante.json")
@@ -28,22 +38,27 @@ def main():
         print(str(e))
         return
 
-    # Pedir código del estudiante
-    estudiante = input("📘 Ingrese el código del estudiante (ej: A003): ").strip()
+    # Carga el archivo existente sin sobrescribir
+    promedios = cargar_existente(ruta_salida)
 
-    if estudiante not in datos:
-        print(f"❌ El estudiante '{estudiante}' no existe en el archivo.")
-        return
+    while True:
+        estudiante = input("📘 Ingrese el código del estudiante (o 'salir' para terminar): ").strip()
+        if estudiante.lower() == 'salir':
+            break
 
-    promedio = calcular_promedio(datos[estudiante])
+        if estudiante not in datos:
+            print(f"❌ El estudiante '{estudiante}' no existe en el archivo.")
+            continue
 
-    resultado = {estudiante: promedio}
+        promedio = calcular_promedio(datos[estudiante])
+        promedios[estudiante] = promedio
+        print(f"✅ Promedio de {estudiante}: {promedio}")
 
+    # Guardar todos los promedios actualizados
     try:
         with open(ruta_salida, 'w', encoding='utf-8') as f:
-            json.dump(resultado, f, indent=4, ensure_ascii=False)
-        print(f"✅ Promedio guardado en: {ruta_salida}")
-        print(f"📊 {estudiante}: {promedio}")
+            json.dump(promedios, f, indent=4, ensure_ascii=False)
+        print(f"\n📁 Todos los promedios se guardaron en: {ruta_salida}")
     except Exception as e:
         print(f"❌ Error al guardar el archivo: {str(e)}")
 
