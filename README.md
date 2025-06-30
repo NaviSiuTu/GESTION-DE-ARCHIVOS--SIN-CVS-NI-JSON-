@@ -129,6 +129,75 @@ que est ́en en un rango de edades dado por el usuario.
 componentes clave:valor que son iguales en ambos. Genere un nuevo
 archivo JSON con las coincidencias exactas entre los dos archivos.
 
+EJECUCIÓN
+
+JSON A RELACIONAR:
+
+![image](https://github.com/user-attachments/assets/29b48744-40ad-4fe5-b368-871bbcaa436e)
+![image](https://github.com/user-attachments/assets/9da88837-50a7-4692-9896-6c963edec963)
+
+
+
+SI HAY COINCIDENCIA:
+
+![image](https://github.com/user-attachments/assets/13a5c474-435c-4825-93ce-fb1e7e366457)
+
+JSON DONDE SE GUARDA:
+
+![image](https://github.com/user-attachments/assets/71a195e8-1af1-4943-ba9b-8a6387980e36)
+
+SI NO HAY COINCIDENCIA: (No se guarda nada en el json)
+
+![image](https://github.com/user-attachments/assets/65b8e974-d986-4406-9c3b-7fd23b191bfe)
+
+PROBLEMA 3: Desarrolle un programa que lea un archivo JSON, en el cual se
+encuentran las notas de los estudiantes del curso. Cada llave
+corresponde al c ́odigo de cada estudiante, y su valor es una lista con
+las notas obtenidas en las actividades del curso. Se debe generar un
+nuevo archivo JSON que para uno de los estudiantes solo guarde el
+promedio de las notas obtenidas.
+
+EJECUCIÓN:
+--- PRIMERA INTERACCIÓN CON CONSOLA
+
+![image](https://github.com/user-attachments/assets/77c4f8f7-a025-4c0b-ab60-094a8bff1b5c)
+
+--- JSON CON CÓDIGOS ESTUDIANTILES:
+
+![image](https://github.com/user-attachments/assets/c41dc6c6-c29a-4bd2-b67b-c23c501cab98)
+
+--- CONFIRMACIÓN DEL CODIGO:
+
+![image](https://github.com/user-attachments/assets/aad6f2ab-ceb8-4901-8d4d-d2bc0f74306a)
+
+--- JSON DONDE SE GUARDA EL PROMEDIO:
+
+![image](https://github.com/user-attachments/assets/e53ea49e-a370-470a-b0ac-f0b1a7785011)
+
+--- CON MAS PROMEDIOS
+
+![image](https://github.com/user-attachments/assets/00b596c4-2890-4e14-b86c-a7134cd3afee)
+
+en json
+
+![image](https://github.com/user-attachments/assets/4276948c-6d68-4526-9171-5b158fe95c79)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
