@@ -183,6 +183,69 @@ en json
 ![image](https://github.com/user-attachments/assets/4276948c-6d68-4526-9171-5b158fe95c79)
 
 
+PROBLEMA 4: Desarrollar un programa que lea un archivo JSON que contiene una
+serie de cadenas de caracteres en min ́uscula, cada una con su propia
+llave. Estas llaves tienen una codificaci ́on, a forma de encriptaci ́on, en
+donde las vocales est ́an descritas como otros s ́ımbolos: $ en vez de a,
+# en vez de e, * en vez de i, ¬ en vez de o, y + en vez de u. Una vez
+le ́ıdo el archivo, realice una desencriptaci ́on de todas las cadenas, es
+decir, convierta los s ́ımbolos a sus vocales correspondientes (si la
+cadena de entrada es ”h¬l$”, la cadena resultante ser ́ıa ”hola”), y
+guarde el resultado en un nuevo archivo JSON.
+
+EJECUCIÓN:
+
+--- PALABRAS A DESENCRIPTAR:
+
+![image](https://github.com/user-attachments/assets/0639dda7-ab38-400d-b08a-71b8d460742d)
+
+--- JSON CON PALABRAS DESENCRIPTADAS
+
+![image](https://github.com/user-attachments/assets/70d49d5a-fa09-4fc1-87a8-f1586fcc5b0b)
+
+  mensaje de confirmación:
+  
+![image](https://github.com/user-attachments/assets/dd6054dc-61f5-4c16-9533-1483617dae9b)
+
+
+PARTE IV: EXCEPCIONES
+
+  PROBLEMA 1: Capture la excepci ́on que evita que el usuario acceda a posiciones que
+no se encuentran definidas en la lista dada y muestre el mensaje
+Intenta acceder una posici ́on que no est ́a en el arreglo:
+
+  CAPTURANDO LA EXCEPCIÓN:
+
+  ![image](https://github.com/user-attachments/assets/df569e51-5ae9-490e-a426-eeb58becf3fc)
+
+  PROBLEMA 2: Capture la excepci ́on para evitar que un programador sume una
+cadena de texto a un n ́umero y muestre el mensaje
+Los tipos de datos no cuadran para hacer la operaci ́on:
+
+  CAPTURANDO LA EXCEPCIÓN:
+
+  ![image](https://github.com/user-attachments/assets/2b682640-78a5-4142-9888-4aa556cf15b0)
+
+  SIN CAPTURAR LA EXCEPCION:
+
+  ![image](https://github.com/user-attachments/assets/6501aff5-62be-496b-b1c9-ea344382340c)
+
+  PROBLEMA 3: Capture la excepci ́on cuando se trata de obtener una llave que no se
+encuentra en un diccionario y muestre el mensaje
+Intenta acceder una llave que no est ́a en el diccionario:
+
+  CAPTURANDO LA EXCEPCIÓN:
+
+  ![image](https://github.com/user-attachments/assets/5d02cc53-8f9d-4533-a852-c9fe3bed19e5)
+
+
+  SIN CAPTURAR LA EXCEPCIÓN:
+
+  ![image](https://github.com/user-attachments/assets/460a6427-24fb-4975-a71b-4781e551dd10)
+
+
+
+
 
 
 
