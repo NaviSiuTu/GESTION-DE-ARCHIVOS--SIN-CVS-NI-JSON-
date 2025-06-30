@@ -98,16 +98,36 @@ que est ́en en un rango de edades dado por el usuario.
 
   EJECUCIÓN (INTEGRANDO TKINTER)
   ------ PRIMERA VISTA -------
-  
-  ![image](https://github.com/user-attachments/assets/bed170c6-a955-4a25-97ca-bb109b41c271)
+
+  ![image](https://github.com/user-attachments/assets/f467440b-026f-4e5b-a432-e0f924e6aa97)
+
   
   ------ SEGUNDA VISTA ------ (BUSQUEDA POR DEPORTE)
   
-  ![image](https://github.com/user-attachments/assets/37384063-dd34-4cf9-94cc-abf28a120f02)
+  ![image](https://github.com/user-attachments/assets/d33e5582-45a8-4567-a6df-bed754479e19)
+
   
   ------ TERCERA VISTA ------ (BUSQUEDA POR RANGO DE EDAD)
   
-  ![image](https://github.com/user-attachments/assets/7d58147b-b161-4ca4-9685-57b342412583)
+  ![image](https://github.com/user-attachments/assets/cbbf117e-9e22-4c50-8ee9-e625de823d2e)
+
+  ------ CUARTA VISTA ------- (BUSCQUEDA POR RANDO Y DEPORTE)
+
+  ![image](https://github.com/user-attachments/assets/f35f6ef8-9108-44e0-bc04-06ef4bf59fe0)
+
+
+  SI NO SE LLENA EL CAMPO DE DEPORTE:
+
+  ![image](https://github.com/user-attachments/assets/ecfbf264-e2d7-4501-b237-a5e68092ce63)
+
+  SI NO SE LLENA EL CAMPO DE EDAD:
+
+  ![image](https://github.com/user-attachments/assets/70dad08e-603b-409d-97df-6a4627a0770e)
+
+
+  PROBLEMA 2: Desarrolle un programa que lea dos archivos JSON, y encuentre los
+componentes clave:valor que son iguales en ambos. Genere un nuevo
+archivo JSON con las coincidencias exactas entre los dos archivos.
 
 
 
